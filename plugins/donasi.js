@@ -10,18 +10,18 @@ let str = `${global.wm}
 ❏────
 
 ┌─「 Donasi • Non Pulsa 」
-│ • *Dana:* [${global.pdana}]
-│ • *Gopay:* [${global.pgopay}]
-│ • *Ovo:* [${global.povo}]
-│ • *Link Aja:* [${global.plinkaja}]
+│ • *Dana:* [0882 2015 4946]
+│ • *Gopay:* [0882 2015 4946]
+│ • *Ovo:* [0882 2015 4946]
+│ • *Link Aja:* 
 ❏────`
 let wibu = `https://i.ibb.co/P5BBzbf/286637238-392674839545088-948545114162206238-n.jpg` 
 let thumb = await(await fetch(wibu)).buffer()
 conn.sendButtonDoc(m.chat, str, wm,'Sewa Bot','.sewa', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/_ctzhid",
+    mediaUrl: "https://Instagram.com/andiigndr29",
     mediaType: "VIDEO",
-    description: "https://www.instagram.com/p/CevoCg5hG-p/?utm_source=ig_web_copy_link", 
-    title: 'WH-MODS-DEV-V1 MultiDevice',
+    description: "https://www.instagram.com/andiigndr29", 
+    title: 'ig @andiigndr29',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sig
